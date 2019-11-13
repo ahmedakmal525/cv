@@ -1,5 +1,6 @@
 {
-  "name": "my-portfolio-2019",
+  "homepage": "http://ahmedakmal525.github.io/cv",
+  "name": "cv",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,7 +33,9 @@
     "flow": "flow",
     "flow-typed": "rimraf flow-typed/npm && flow-typed install",
     "lint": "eslint .",
-    "lint-fix": "eslint . --fix"
+    "lint-fix": "eslint . --fix",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -57,6 +60,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "flow-bin": "^0.111.3",
     "flow-typed": "^2.6.2",
+    "gh-pages": "^2.1.1",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0"
   }
