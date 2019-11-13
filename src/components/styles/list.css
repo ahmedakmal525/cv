@@ -1,0 +1,15 @@
+.card-column {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.tech-card {
+    padding: 16px;
+    height: 250px;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}

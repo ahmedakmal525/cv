@@ -1,0 +1,8 @@
+.App-Content {
+    flex-direction: column;
+}
+
+.User-Info-Container {
+    display: flex;
+    flex-direction: row;
+}

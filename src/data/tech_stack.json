@@ -1,0 +1,28 @@
+{
+  "techStack": [
+    { "name": "java", "description": "java_desc" },
+    { "name": "javascript", "description": "javascript_desc" },
+    { "name": "python", "description": "python_desc" },
+    { "name": "dart", "description": "dart_desc" },
+    { "name": "php", "description": "php_desc" },
+    { "name": "android", "description": "android_desc" },
+    { "name": "reactnative", "description": "reactnative_desc" },
+    { "name": "flutter", "description": "flutter_desc" },
+    { "name": "react", "description": "react_desc" },
+    { "name": "vue", "description": "vue_desc" },
+    { "name": "node", "description": "node_desc" },
+    { "name": "express", "description": "express_desc" },
+    { "name": "loopback", "description": "loopback_desc" },
+    { "name": "docker", "description": "docker_desc" },
+    { "name": "vagrant", "description": "vagrant_desc" },
+    { "name": "kubernetes", "description": "kubernetes_desc" },
+    { "name": "rabbitmq", "description": "rabbitmq_desc" },
+    { "name": "ansible", "description": "ansible_desc" },
+    { "name": "puppet", "description": "puppet_desc" },
+    { "name": "jenkins", "description": "jenkins_desc" },
+    { "name": "gradle", "description": "gradle_desc" },
+    { "name": "couchbase", "description": "couchbase_desc" },
+    { "name": "postgres", "description": "postgres_desc" },
+    { "name": "mysql", "description": "mysql_desc" }
+  ]
+}

@@ -1,11 +1,27 @@
+@font-face {
+  font-family: "Questrial";
+  src: local("Questrial"), url(./assets/fonts/Questrial-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Mukta Malar";
+  src: local("Mukta Malar"), url(./assets/fonts/MuktaMalar-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Abhaya Libre";
+  src: local("Abhaya Libre"), url(./assets/fonts/AbhayaLibre-Regular.ttf) format("truetype");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Questrial", "Mukta Malar", "Abhaya Libre", sans-serif;
+  background-color: #001738ff;
+  color: "#001738ff";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
